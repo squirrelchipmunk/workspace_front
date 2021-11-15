@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+body{
+    font-size: 16px;
+    font-family: "맑은 고딕", 돋움, 궁서;
+}
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+margin: 0; padding: 0;
+}
+
+li{list-style-type: none;}
+a:link{ color: #000; text-decoration: none;}
+a:visited{ color: #000; text-decoration: none;}
+a:hover{ color: #000; text-decoration: none;}
+a:active{ color: #000; text-decoration: none;}
+
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+.f-lx{font-size: 20px;}
+.f-l{font-size: 16px;}
+.f-s{font-size: 10px;}
+.b{font-weight: bold;}
+#wrap{width: 1000px;}
+#header{
+    border-bottom: 2px solid #ccc;
+    padding: 15px 0px;
+}
+
+#nav{
+    border-bottom: 2px solid #ccc;
+    padding: 20px 0px;
+}
+
+#contents{
+    padding: 40px 20px;
+}
+
+#footer{
+    background-color: #ccc;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+/* 헤더 */
+#header h1{
+    float:left;
+    margin-left: 10px;
+}
+#header h1 a{
+    color: rgb(160, 219, 92);
+}
+#header ul{
+    float: right;
+    margin-top: 17px;
+}
+#header ul li{
+    float: left;
+    padding-left: 15px;
+}
+
+/* 네비 */
+#nav ul li{
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+#nav ul li a{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* 컨텐츠 */
+#contents .profile{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+#contents #welcome{
+    float:left;
+}
+
+/* 푸터 */

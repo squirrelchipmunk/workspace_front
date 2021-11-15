@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            body{
+                font-size: 14px;
+            }
+            .brd-tbl{
+                text-align: center;
+                border-collapse: collapse;
+                border-top: 2px solid #808080;
+                border-bottom: 2px solid #808080;
+            }
+            .brd-tbl>thead>tr>th{
+                background-color: #dddddd;
+            }
+            .brd-tbl>tbody>tr:hover{
+                background-color: #ff0;
+            }
+            .brd-tbl th{
+                border-bottom: 2px solid #808080;
+                height: 24px;
+            }
+            .brd-tbl td{
+                border-bottom: 1px dotted #808080;
+                height: 24px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>mysite</h1>
+        <h2>게시판</h2>
+        <h3>일반게시판</h3>
+        <h4>리스트</h4>
+
+        <table class="brd-tbl"> 
+            <colgroup>
+                <col style="width: 40px;">
+                <col style="width: 400px;">
+                <col style="width: 80px;">
+                <col style="width: 80px;">
+                <col style="width: 120px;">
+                <col style="width: 80px;">
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>번호</th>
+                    <th>제목</th>
+                    <th>글쓴이</th>
+                    <th>조회수</th>
+                    <th>작성일</th>
+                    <th>관리</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>123</td>
+                    <td><a href="">게시판 게시글입니다.</a></td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-11-03</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td><a href="">게시판 게시글입니다.</a></td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-11-03</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td><a href="">게시판 게시글입니다.</a></td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-11-03</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td><a href="">게시판 게시글입니다.</a></td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-11-03</td>
+                    <td>삭제</td>
+                </tr>
+                <tr>
+                    <td>123</td>
+                    <td><a href="">게시판 게시글입니다.</a></td>
+                    <td>정우성</td>
+                    <td>1232</td>
+                    <td>2021-11-03</td>
+                    <td>삭제</td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+    </body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            .box{
+                width: 157px; height: 48px;
+                text-align: center;
+                border-radius: 7px;
+                font-size: 23px;
+                font-weight: 400;
+                cursor: pointer;        /* 마우스 오버 시 손바닥 모양 커서 --> a태그 링크는 기본값  */
+            }
+            .save-button{
+                border : 3px solid #a6a6a6;
+                background-color: #bfbfbf;
+            }
+            .save-button:hover{background-color: #fff;}
+            .delete-button{
+                border : 3px solid #f47378;
+                background-color: #f8a1a4;
+            }
+            .delete-button:hover{background-color: #fff;}
+            .update-button{
+                border : 3px solid #94d8f6;
+                background-color: #60c5f1;
+            }
+            .update-button:hover{background-color: #fff;}
+
+
+            .btn-login{
+                text-align: center;
+                font-size: 23px;
+                border: 3px solid #f55;
+                width: 150px; height: 50px;               /* 인라인 요소는 width 불가능 */
+                background-color: #f00;
+                display: inline-block;
+                border-radius: 5px;
+                vertical-align: middle;
+                line-height: 50px;
+            }
+            .btn-login:link,  .btn-login:visited, .btn-login:hover, .btn-login:active{text-decoration: none; color: #000;}
+            .btn-login:hover{background-color: #fff;}
+            
+        
+
+        </style>
+    </head>
+
+    <body>
+        <button type="submit" class="box save-button">저장버튼</button> <br>
+        <button type="submit" class="box delete-button">삭제버튼</button> <br>
+        <button type="submit" class="box update-button">수정버튼</button> <br>
+        
+        <a class="btn-login" href="https://www.naver.com">로그인</a>
+        
+
+    </body>
+
+</html>

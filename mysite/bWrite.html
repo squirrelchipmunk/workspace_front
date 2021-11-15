@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <title>mysite</title>
+    
+        <link rel="stylesheet" href="assets/css/mysite.css">
+        <link rel="stylesheet" href="assets/css/board.css">
+    </head>
+
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">
+                <h1><a href="">MySite</a></h1>
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            <!-- /header -->
+            <div id="nav">
+                <ul  class="clearfix">
+                    <li><a href="">입사지원서</a></li>
+                    <li><a href="">게시판</a></li>
+                    <li><a href="">갤러리</a></li>
+                    <li><a href="">방명록</a></li>
+                </ul>
+            </div>
+            <!-- /nav -->
+            <div id="contents2" class="clearfix">
+                <div id="aside"> 
+                    <h2>게시판</h2>
+                    <ul>
+                        <li><a href="">일반 게시판</a></li>
+                        <li><a href="">댓글 게시판</a></li>
+                        <li><a href="">첨부 게시판</a></li>
+                    </ul>
+                </div>
+                <!-- /aside -->
+                <div id="main">
+                    <div id="main-header"  class="clearfix">
+                        <h3>일반게시판</h3>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>게시판</li>
+                            <li class="last">일반게시판</li>
+                        </ul>
+                    </div>
+                    <!-- /main-header -->
+                    <div id="bWrite">
+                        <form action="" method="">
+                            <!-- 게시판선택 -->
+                            <div class="form-group">
+                                <label class="form-text" for="type"> 게시판선택 </label>
+                                <select id="type" name="write-type">
+                                    <option value="">선택해주세요.</option>
+                                    <option value="">일반게시판</option>
+                                    <option value="">댓글게시판</option>
+                                    <option value="">첨부게시판</option>
+                                </select> <br>
+                            </div>
+                            <!-- /게시판선택 -->
+                            <!-- 제목 -->
+                            <div class="form-group">
+                                <label class="form-text" for="title">제목</label> 
+                                <input id="title" type="text" name="title" placeholder="제목을 입력해 주세요">
+                            </div>
+                            <!-- /제목 -->
+                            <!-- 비밀번호 -->
+                            <div class="form-group">
+                                <label class="form-text" for="pw">비밀번호</label>
+                                <input id="pw" type="password" name="pw" placeholder="패스워드를 입력하세요"> <br>
+                            </div>
+                            <!-- /비밀번호 -->
+                            <!-- 공개범위 -->
+                            <div class="form-group">
+                                <span class="form-text">공개범위</span>
+                                <label for="me"> 본인 </label>
+                                <input type="radio" id="me" name="public-scope" value="me">
+                                <label for="login-member"> 로그인회원 </label>
+                                <input type="radio" id="login-member" name="public-scope" value="loginMember">
+                                <label for="friend"> 친구 </label>
+                                <input type="radio" id="friend" name="public-scope" value="friend">
+                                <label for="all"> 전체 </label>
+                                <input type="radio" id="all" name="public-scope" value="all" checked>
+                            </div>
+                            <!-- /공개범위 -->
+                            <!-- 허용범위 -->
+                            <div class="form-group">
+                                <span class="form-text">허용범위</span>
+                                <label for="comment">댓글허용</label>
+                                <input type="checkbox" id="comment" name="tolerance" value="comment" checked>
+                                <label for="reply">답글허용</label>
+                                <input type="checkbox" id="reply" name="tolerance" value="reply">
+                                <label for="like">좋아요허용</label>
+                                <input type="checkbox" id="like" name="tolerance" value="like">
+                            </div>
+                            <!-- /허용범위 -->
+                            <!-- 텍스트 -->
+                            <div class="form-group">
+                                <textarea name="" id="" cols="110" rows="25"></textarea> <br>
+                            </div>
+                            <!-- /텍스트 -->
+                            <!-- 첨부파일 -->
+                            <div class="form-group">
+                                <label class="form-text" for="file"> 첨부파일 </label>
+                                <input id="file" type="file" name="file">
+                            </div>
+                            <!-- /첨부파일 -->
+                            <div id="btn-area">
+                                <button class="btn btn-gray" type="submit">등 록</button>
+                                <button class="btn btn-red" type="reset">삭 제</button>
+                                <button class="btn btn-blue" type="submit">수 정</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- /main -->
+            </div>
+            <!-- /contents2 -->
+            <div id="footer">
+                Copyright ⓒ 2021 이원준. All right reserved
+            </div>
+        </div>
+    </body>
+</html>

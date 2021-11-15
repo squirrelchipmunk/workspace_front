@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* contents 상세 */
+
+#contents #profile-img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+#contents #greeting{
+    float:left;       /* 이미지 아래로 글자가 흐르지 않도록 설계 */
+}

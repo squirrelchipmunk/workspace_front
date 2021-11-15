@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* 로그인 */
+/* #loginForm{
+
+} */
+#loginForm #login-box{
+    margin: 20px 0px 20px 150px; 
+    border: 1px solid #ccc;
+    width: 530px;
+    height: 230px;
+    font-size: 16px;
+    color: #666;
+}
+#login-box input{
+    height: 30px;
+}
+
+#loginForm #login-box .form-group{
+    margin: 25px 0px 25px 80px;
+}
+#loginForm #login-box .form-text{
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px;
+    width: 80px;
+}
+#loginForm #login-btn{
+    font-size: 17px;
+    width: 120px;
+    height: 40px;
+    margin: 10px 0px 0px 200px;
+}
+
+
+
+/* 회원가입 */
+#sign{
+    padding-left: 5px;
+}
+#sign input{
+    padding: 2px 0px;
+}
+#sign .form-group{
+    padding: 10px 0px;
+    border-bottom:1px solid #ddd;
+}
+
+#sign .form-text{
+    display: inline-block;
+    width: 80px;
+}
+
+#sign #addr-form-text, #addr-form{
+    float: left;
+}
+
+#sign #addr2{
+    margin-top: 5px;
+    display: inline-block;
+    width: 500px;
+}
+
+#sign .form-group input[type="radio"],#sign .form-group input[type="checkbox"]{
+    margin-right: 10px;
+}
+
+#sign #self-form-text{
+    float: left;
+}
+#sign textarea#self{
+    float: left;
+    width: 500px;
+    height: 120px;
+}
+
+#sign #sign-btn{
+    margin: 15px 0px 30px 0px;
+    padding-left: 300px;
+}
+#sign #sign-btn .btn{
+    width: 60px;
+    height: 30px;
+}

@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* 게시판 리스트 */
+    /* 검색 */
+#wrap #contents2 #main-body #search{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+    /* 테이블 */
+#wrap #contents2 #main-body .brd-tbl{
+    width: 820px;
+    text-align: center;
+    border-collapse: collapse;
+    border-top: 1px solid #808080;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 10px;
+}
+#wrap #contents2 #main-body .brd-tbl>thead>tr>th{
+    background-color: #dddddd;
+}
+#wrap #contents2 #main-body .brd-tbl>tbody>tr:hover{
+    background-color: #ff0;
+}
+#wrap #contents2 #main-body .brd-tbl th{
+    border-bottom: 1px solid #808080;
+    height: 30px;
+}
+#wrap #contents2 #main-body .brd-tbl td{
+    border-bottom: 1px dotted #808080;
+    height: 30px;
+}
+    /* page + 글쓰기 버튼*/
+#wrap #contents2 #main-body .page{
+    text-align: right;
+}
+#wrap #contents2 #main-body .page .no{
+    font-size: 15px;
+}
+#wrap #contents2 #main-body .page button{
+    margin-left: 290px;
+}
+#wrap #contents2 #main-body .page .green{
+    color:#0f0;
+}
+
+
+
+/* 게시판 글쓰기 */
+
+    /* 입력 폼 */
+#bWrite .form-group{
+    padding: 4px 0px;
+}
+#bWrite .form-text{
+    display: inline-block;
+    width: 80px;  
+}
+#bWrite select#type{
+    margin-top: 5px;
+    width: 150px;
+}
+#bWrite input#title{
+    width:720px
+}
+#bWrite input[type="radio"], #bWrite input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+#bWrite .form-group>textarea{
+    width: 800px;
+    height: 350px;
+}
+
+    /* 등록 버튼,  초기화 버튼 */
+#bWrite #btn-area{
+    border-top: 1px solid #aaa;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 30px;
+    
+}
+#bWrite #btn-area .btn{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#bWrite .btn-gray{
+    background-color: #efefef;
+    border : 1px solid #aaa;
+}
+#bWrite .btn-red{
+    background-color: #f82222;
+    border : 1px solid #ff7a7a;
+}
+#bWrite .btn-blue{
+    background-color: rgb(167, 161, 255);
+    
+    border : 1px solid #7aa4ff;
+}
+#bWrite .btn-gray:hover{
+    background-color: #d9d9d9;
+}
+#bWrite .btn-red:hover{
+    background-color: #880000;
+}
+#bWrite .btn-blue:hover{
+    background-color: rgb(80, 80, 255);
+}

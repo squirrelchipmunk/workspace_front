@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+
+
+<head>
+    <meta charset="utf-8">
+    <title>mysite</title>
+    <!-- 공통 부분 css -->
+    <link rel="stylesheet" href="assets/css/mysite.css">    
+    <!-- main.html 전용 css -->
+    <link rel="stylesheet" href="assets/css/member.css">      
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header" class="clearfix">
+            <h1><a href="">MySite</a></h1>
+            <ul class="clearfix">
+                <li><a href="">로그인</a></li>
+                <li><a href="">회원가입</a></li>
+            </ul>
+        </div>
+        <!-- /header -->
+        <div id="nav">
+            <ul  class="clearfix">
+                <li><a href="">입사지원서</a></li>
+                <li><a href="">게시판</a></li>
+                <li><a href="">갤러리</a></li>
+                <li><a href="">방명록</a></li>
+            </ul>
+        </div>
+        <!-- /nav -->
+        <div id="contents2" class="clearfix">
+            <div id="aside">
+                <h2>회원</h2>
+                <ul>
+                    <li><a href="">회원정보</a></li>
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            <div id="main">
+                <div id="main-header" class="clearfix">
+                    <h3>회원가입</h3>
+                    <ul class="clearfix">
+                        <li>홈</li>
+                        <li>회원</li>
+                        <li class="last">회원가입</li>
+                    </ul>
+                </div>
+                <div id="sign">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <label class="form-text" for="uid">아이디</label>
+                            <input id="uid" type="text" placeholder="아이디를 입력하세요">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-text" for="upw">패스워드</label>
+                            <input id="upw" type="password" placeholder="패스워드를 입력하세요">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-text" for="uname">이름</label>
+                            <input id="uname" type="text" placeholder="이름을 입력하세요">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-text" for="profile-img">프로필사진</label>
+                            <input id="profile-img" type="file">
+                        </div>
+                        <div class="form-group clearfix">
+                            <div id="addr-form-text"><label class="form-text" for="addr1">주소</label> </div>
+                            <div id="addr-form"><input id="addr1" type="text" placeholder="우편번호">
+                                <button type="submit">우편번호찾기</button>
+                                <br><input id="addr2" type="text" placeholder="주소">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-text" for="mobile">이동통신사</label>
+                            <select id="mobile" name="">
+                                <option value="">선택해주세요</option>
+                                <option value="">skt</option>
+                                <option value="">kt</option>
+                                <option value="">lg</option>
+                                <option value="">mvno</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <span class="form-text">나이</span>
+                            <label for="age10">10대</label>
+                            <input type="radio" id="age10" name="age" value="">
+                            <label for="age20">20대</label>
+                            <input type="radio" id="age20" name="age" value="" checked>
+                            <label for="age30">30대</label>
+                            <input type="radio" id="age30" name="age" value="">
+                            <label for="age40">40대</label>
+                            <input type="radio" id="age40" name="age" value="">
+                            <label for="age-other">기타</label>
+                            <input type="radio" id="age-other" name="age" value="">
+                        </div>
+                        <div class="form-group">
+                            <span class="form-text">취미</span>
+                            <label for="book">독서</label>
+                            <input type="checkbox" id="book" name="hobby" value="" checked>
+                            <label for="music">음악</label>
+                            <input type="checkbox" id="music" name="hobby" value="">
+                            <label for="trip">여행</label>
+                            <input type="checkbox" id="trip" name="hobby" value="">
+                            <label for="movie">영화</label>
+                            <input type="checkbox" id="movie" name="hobby" value="">
+                            <label for="programming">코딩</label>
+                            <input type="checkbox" id="programming" name="hobby" value="">
+                            <label for="hobby-other">기타</label>
+                            <input type="checkbox" id="hobby-other" name="hobby" value="">
+                        </div>
+                        <div class="form-group clearfix">
+                            <div id="self-form-text"><label class="form-text" for="self">자기소개</label></div>
+                            <textarea id="self"> </textarea>
+                        </div>
+                        <div id="sign-btn">
+                            <button class="btn" type="submit">등록</button>
+                            <button class="btn" type="reset">초기화</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Copyright ⓒ 2021 이원준. All right reserved
+        </div>
+    </div>
+</body>
+
+
+
+</html>
+

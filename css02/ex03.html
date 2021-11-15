@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            .bdr-type{
+                background-color:#ff0; width: 300px; height: 150px;
+                /* border-width: 4px;
+                border-style: solid;
+                border-color: #f00; */
+                
+                border:4px solid #f00;
+            }
+            .bdr-4type{
+                background-color:#ff0; width: 300px; height: 150px;
+                border-top:4px solid #f00;
+                border-left:4px dotted #f00;
+                border-right:4px double #f00;
+                border-bottom:4px dashed #f00;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div class="bdr-type">
+            border 연습
+        </div>
+
+        <BR></BR>
+        <div class="bdr-4type">
+            border 연습
+        </div>
+        
+
+    </body>
+
+</html>

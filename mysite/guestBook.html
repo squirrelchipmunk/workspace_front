@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+    <head>
+        <meta charset="utf-8">
+        <title>mysite</title>
+    
+        <link rel="stylesheet" href="assets/css/mysite.css">
+        <link rel="stylesheet" href="assets/css/guestBook.css">
+    </head>
+
+    <body>
+        <div id="wrap">
+            <div id="header" class="clearfix">
+                <h1><a href="">MySite</a></h1>
+                <ul class="clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">회원가입</a></li>
+                </ul>
+            </div>
+            <!-- /header -->
+            <div id="nav">
+                <ul  class="clearfix">
+                    <li><a href="">입사지원서</a></li>
+                    <li><a href="">게시판</a></li>
+                    <li><a href="">갤러리</a></li>
+                    <li><a href="">방명록</a></li>
+                </ul>
+            </div>
+            <!-- /nav -->
+            <div id="contents2" class="clearfix">
+                <div id="aside"> 
+                    <h2>방명록</h2>
+                    <ul>
+                        <li><a href="">일반방명록</a></li>
+                        <li><a href="">ajax방명록</a></li>
+                    </ul>
+                </div>
+                <!-- /aside -->
+                <div id="main">
+                    <div id="main-header"  class="clearfix">
+                        <h3>일반방명록</h3>
+                        <ul class="clearfix">
+                            <li>홈</li>
+                            <li>방명록</li>
+                            <li class="last">일반방명록</li>
+                        </ul>
+                    </div>
+                    <!-- /main-header -->
+                    <div id="guestBook">
+                        <form action="" method="">
+                            <table id="guestBookForm">
+                                <colgroup>
+                                    <col style="width: 70px;">
+                                    <col style="width: 340px;">
+                                    <col style="width: 70px;">
+                                    <col style="width: 340px;">
+                                </colgroup>
+                                <tr>
+                                    <th><label for="guestName">이름</label></th>
+                                    <td><input id="guestName" type="text"></td>
+                                    <th><label for="guestPw">패스워드</label></th>
+                                    <td><input id="guestPw" type="password"></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">
+                                        <textarea id="guest-text" name="" id="" cols="112" rows="10"></textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4" class="btn-box">
+                                        <button id="write-btn" type="submit">등록</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+
+                        <table class="guestBook-tbl">
+                            <colgroup>
+                                <col style="width: 70px;">
+                                <col style="width: 340px;">
+                                <col style="width: 340px;">
+                                <col style="width: 70px;">
+                            </colgroup>
+                            <tr>
+                                <td>1234555</td>
+                                <td>이정재</td>
+                                <td>2020-03-03 12:12:12</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">방명록 글입니다. 방명록 글입니다.</td>
+                            </tr>
+                        </table>
+                        
+                        <table class="guestBook-tbl">
+                            <colgroup>
+                                <col style="width: 70px;">
+                                <col style="width: 340px;">
+                                <col style="width: 340px;">
+                                <col style="width: 70px;">
+                            </colgroup>
+                            <tr>
+                                <td>1234555</td>
+                                <td>이정재</td>
+                                <td>2020-03-03 12:12:12</td>
+                                <td>[삭제]</td>
+                            </tr>
+                            <tr>
+                                <td colspan="4">방명록 글입니다. 방명록 글입니다.</td>
+                            </tr>
+                        </table>
+                        
+                    </div>
+                </div>
+                <!-- /main -->
+            </div>
+            <!-- /contents2 -->
+            <div id="footer">
+                Copyright ⓒ 2021 이원준. All right reserved
+            </div>
+        </div>
+    </body>
+</html>

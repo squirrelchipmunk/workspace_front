@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+#guestBook{
+    margin-top: 15px;
+}
+
+#guestBook table, #guestBook th, #guestBook td{
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+}
+
+#guestBook th ,#guestBook td{
+    height: 40px;    
+}
+#guestBookForm th{
+    text-align: left;
+    padding-left: 5px;
+}
+#guestName, #guestPw{
+    width: 320px;
+    margin-left: 5px;
+}
+#guest-text{
+    margin:5px;
+}
+.btn-box{
+    text-align: center;
+}
+.btn-box button{
+    font-size: 14px;
+    padding: 7px 35px;
+    margin: 5px 0px;
+}
+
+
+#guestBookForm{
+    margin-bottom: 30px;
+}
+
+.guestBook-tbl{
+    margin-bottom: 15px;
+}
+.guestBook-tbl td{
+    padding-left: 10px;
+}

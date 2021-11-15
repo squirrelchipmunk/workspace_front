@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title> html5 </title>
+</head>
+<body>
+    목차
+    <ol>
+        <li><a href="ex01.html">h1~h6 태그</a></li>
+        <li><a href="ex02.html">p, br, hr, strong, em 태그</a></li>
+        <li><a href="ex03.html">ol, ul 태그</a></li>
+        <li><a href="ex04.html">img, a 태그</a></li>
+        <li><a href="ex05.html">table, tr, td 태그</a></li>
+        <li><a href="ex06.html">테이블 합치기</a></li>
+        <li><a href="ex07.html">thead, tbody, tfoot 태그</a></li>
+        <li><a href="ex08.html">이 력 서</a></li>
+        <li><a href="ex09.html">테이블 합치기 연습문제</a></li>
+    </ol>
+    <hr>
+    <h1>html 기본태그</h1>
+    <h2>7. thead, tbody, tfoot 태그</h2>
+    <table border="1">
+        <thead>
+            <!-- thead tbody는 눈으로 보이진 않지만 테이블을 구조화 함 -->
+            <tr>
+                <th>번호</th>
+                <th>학교수</th>
+                <th>학급수</th>
+                <th>학생수</th>
+                <th>교원수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>117</td>
+                <td>252</td>
+                <td>5547</td>
+                <td>474</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>111</td>
+                <td>1720</td>
+                <td>37686</td>
+                <td>2632</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>44</td>
+                <td>699</td>
+                <td>21274</td>
+                <td>1412</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <table border="1">
+
+        <colgroup>
+            <col style="width:120px;">  <!-- css 활용하는 것이 좋은 방법 -->
+            <col style="width:60px;">
+            <col style="width:60px;">
+            <col style="width:80px;">
+            <col style="width:100px;">
+        </colgroup>
+
+        <caption>제주특별자치도 학교현황</caption>
+        <thead>   <!-- alt + shift + 드래그로 같은 열 드래그 가능 -->
+            <tr>
+                <th>구분</th>
+                <th>학교수</th>
+                <th>학급수</th>
+                <th>학생수</th>
+                <th>교원수</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>  <!-- td * 5 로 자동완성 가능 -->
+                <th>유치원</th>
+                <td>117</td>
+                <td>252</td>
+                <td>5547</td>
+                <td>474</td>
+            </tr>
+            <tr>
+                <th>초등학교</th>
+                <td>111</td>
+                <td>1720</td>
+                <td>37686</td>
+                <td>2632</td>
+            </tr>
+            <tr> 
+                <th>중학교</th>
+                <td>44</td>
+                <td>699</td>
+                <td>21274</td>
+                <td>1412</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>합계</th>
+                <td>272</td>
+                <td>2671</td>
+                <td>64507</td>
+                <td>4518</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+
+</body>
+
+</html>

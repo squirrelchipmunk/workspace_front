@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* 공통 css */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, 
+textarea, button, form {
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: "맑은 고딕", 돋움, 굴림;
+    font-size: 12px;
+}
+
+a:link{text-decoration: none; color:#000}
+a:visited{text-decoration: none; color:#000}
+a:hover{text-decoration: none; color:#000}
+a:active{text-decoration: none; color:#000}
+
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+.f-xl{font-size: 20px;}
+.f-l{font-size: 16px;}
+.f-s{font-size: 10px;}
+.b{font-weight: bold;}
+
+ol,ul {list-style-type:none;}
+/* 레이아웃 */
+#wrap{
+    width: 1000px;
+    margin:0 auto;   /* 상하는 0 좌우는 중앙 */
+}
+#wrap #header{
+    /* background-color: skyblue; */
+    border-bottom: 2px solid #a6a6a6;
+}
+#wrap #nav{
+    /* background-color:rgb(167, 212, 136); */
+    border-bottom: 2px solid #a6a6a6;
+}
+/* 가로 1단 */
+#wrap #contents{
+    /* background-color: rgb(238, 170, 170); */
+    padding: 40px 20px;
+}
+/* 가로 2단 */
+#wrap #contents2{
+    padding: 20px 0px;
+}
+
+
+
+
+#wrap #footer{
+    background-color:#ddd;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+/*  헤더 상세  */
+#header h1{
+    margin:10px 0px;
+    float: left;
+}
+#header h1>a{ /* 선택자에 id가 있으면 우선순위 높음 */
+    font-size: 35px;
+    color: #79b30b;
+    
+}
+#header>ul{
+    float: right;
+    margin-top: 30px;
+}
+#header>ul>li{   
+    float:left;
+    padding-left:10px;
+    
+}
+
+/* nav 상세 */
+#nav>ul>li{
+    float:left;
+    font-size: 20px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+}
+#nav>ul{
+    margin: 15px 0px;
+}
+
+
+/* contents2 상세 */
+    /* contents2 - aside */
+#wrap #contents2 #aside{
+    width: 160px;
+    float: left;
+    margin-right: 20px;
+}
+#wrap #contents2 #aside h2{
+    background-color: #ddd;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 15px;
+}
+#wrap #contents2 #aside ul>li{
+    font-size: 15px;
+    border: 1px solid #a6a6a6;
+    padding: 5px;
+    margin-top: 5px;
+}
+    /* contents2 - main */
+#wrap #contents2 #main{
+    float: left;
+    width: 820px;
+}
+#wrap #contents2 #main #main-header{
+    border-bottom: 1px solid #a6a6a6;
+    padding: 23px 0px 5px 0px;
+}
+#wrap #contents2 #main #main-header h3{
+    float: left;
+    font-size: 20px;
+}
+#wrap #contents2 #main #main-header ul{
+    float: right;
+    padding-top: 5px   ;
+}
+#wrap #contents2 #main #main-header ul>li{
+    float: left;
+}
+#wrap #contents2 #main #main-header ul>li::after{
+    content: " > ";
+}
+#wrap #contents2 #main #main-header ul>li.last::after{
+    content: "";
+}
+        
+
+
